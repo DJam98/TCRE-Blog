@@ -1,18 +1,4 @@
-/* z-index order */
 
-/*
-FONTS 
-
-font-family: "elza", sans-serif;
-font-weight: 400;
-font-style: normal;
-
-Weights
-300, 400, 500, 600, 700, 900
-
-Change font-style to italics
-
-*/
 
 *{
     box-sizing: border-box;
@@ -44,12 +30,12 @@ Change font-style to italics
     color: white;
     padding: 2vw;
   
-    font-family: "elza", sans-serif;
-    font-weight: 400;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
     font-style: normal;
   }
   
-    /* Had to change the default 'a' tag since it didn't work with the green colour scheme */ 
   
   a {
     color: inherit;
@@ -65,9 +51,6 @@ Change font-style to italics
     font-weight: 900;
   }
   
-  /*
-    I wanted to have the recipe list display in a way that would remain consist no matter what filters where applied, and setting a flex filter worked the best. Pretty much all of the rest of the formatting is allowing the flex to work and look aesthetic.
-  */
   
   main{
     display: flex;
@@ -84,7 +67,7 @@ Change font-style to italics
     padding: 10px;
     margin-top: 1em;
     background-color: var(--teal-900);
-    gap: 0.25em;
+    gap: 0.ßem;
     width: 700px;
     box-shadow: 10px 10px 40px var(--teal-950);
   }
@@ -106,7 +89,6 @@ Change font-style to italics
     font-weight: 500;
   }
   
-  /* Wanted to have a buttonn look that kept in the with the style of the rest of the site. Same applies to other buttons that were used */
   
   .FilterButton{ 
     background-color: var(--teal-600);
@@ -131,9 +113,7 @@ Change font-style to italics
     margin: 5px;
     font-weight: 500;
   }
-  
-  /* Wanted to have a buttonn look that kept in the with the style of the rest of the site. Same applies to other buttons that were used */
-  
+    
   .TagButton{ 
     background-color: var(--teal-600);
     color: white;
