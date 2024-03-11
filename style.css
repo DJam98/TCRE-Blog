@@ -1,0 +1,197 @@
+/* z-index order */
+
+/*
+FONTS 
+
+font-family: "elza", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Weights
+300, 400, 500, 600, 700, 900
+
+Change font-style to italics
+
+*/
+
+*{
+    box-sizing: border-box;
+    background-origin: border-box;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  :root{
+    --teal-50: #FAF5FF;
+    --teal-100: #F3E8FF;
+    --teal-200: #E9D5FF;
+    --teal-300: #D8B4FE;
+    --teal-400: #C084FC;
+    --teal-500: #A855F7;
+    --teal-600: #9333EA;
+    --teal-700: #7E22CE;
+    --teal-800: #6B21A8;
+    --teal-900: #581C87;
+    --teal-950: #3B0764;
+    
+    --border: 1px solid #b6e878;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--teal-500);
+    color: white;
+    padding: 2vw;
+  
+    font-family: "elza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+    /* Had to change the default 'a' tag since it didn't work with the green colour scheme */ 
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:visited a:active a:hover{
+    color: inherit;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight: 900;
+  }
+  
+  /*
+    I wanted to have the recipe list display in a way that would remain consist no matter what filters where applied, and setting a flex filter worked the best. Pretty much all of the rest of the formatting is allowing the flex to work and look aesthetic.
+  */
+  
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: space-evenly;
+    
+  }
+  
+  .BlogPost{
+    display: none;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 1em;
+    background-color: var(--teal-900);
+    gap: 0.25em;
+    width: 700px;
+    box-shadow: 10px 10px 40px var(--teal-950);
+  }
+
+  .BlogPost:hover{
+    background-color: var(--teal-800);
+  }
+  
+  .FilterSection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .FilterBox{
+    margin: 5px;
+    font-weight: 500;
+  }
+  
+  /* Wanted to have a buttonn look that kept in the with the style of the rest of the site. Same applies to other buttons that were used */
+  
+  .FilterButton{ 
+    background-color: var(--teal-600);
+    color: white;
+    height: 2em;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    border: none;
+  }
+  
+  .FilterButton:hover{
+  
+    background-color: var(--teal-700);
+    color: white;
+  
+  }
+
+  .TagBox{
+    margin: 5px;
+    font-weight: 500;
+  }
+  
+  /* Wanted to have a buttonn look that kept in the with the style of the rest of the site. Same applies to other buttons that were used */
+  
+  .TagButton{ 
+    background-color: var(--teal-600);
+    color: white;
+    height: 2em;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    border: none;
+  }
+
+  
+  .SelectedFilter{
+    background-color: var(--teal-800);
+  }
+  
+  .BlogLink {
+  
+      background-color: var(--teal-600);
+      color: white;
+      height: 2em;
+      width: fit-content;
+      padding: 0.5em;
+      padding-left: 1em;
+      padding-right: 1em;
+      border-radius: 1em;
+      margin-top: 0.5em;
+  }
+  
+  .BlogLink:hover {
+    background-color: var(--teal-500);
+    color: white;
+  }
+  
+  .BlogTitle{
+  
+    font-weight: 700;
+    font-size: 1.5em;
+  
+  }
+  
+  .link{
+    color: white;
+    font-weight: 500;
+  }
+  
+  
+  
+  .BlogImageContainer{
+  
+    width: 100%;
+  
+  }
+  
+  .BlogImg{
+  
+    width: 40%;
+    border-radius: 10px;
+  
+  }
