@@ -134,3 +134,9 @@ nav{
     color: var(--teal-800);
     font-size: 0.75rem;
   }
+
+  img{
+    width: 50%;
+    margin-left: 25%;
+    padding: 0.5rem;
+  }
