@@ -36,6 +36,11 @@
     font-style: normal;
   }
   
+  .max{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
   
   a {
     color: inherit;
@@ -46,9 +51,18 @@
     color: inherit;
   }
   
-  h1 {
-    font-size: 2em;
+  .hi {
     font-weight: 900;
+    overflow: hidden;
+  }
+
+  button{
+    border: none;
+    border-radius: 1rem;
+  }
+
+  .About{
+    overflow: hidden;
   }
   
   
@@ -246,6 +260,49 @@
     font-style: normal;
     color: white;
     font-size: 1rem;
+  }
+
+  .SplashStyle:hover{
+    background-color: var(--teal-700);
+  }
+
+  /* About Exclusive */
+
+  .PhotoAbout{
+    flex-grow: 1;
+    height: 96vh;
+    background-image: url(/img/pfp_left.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+  .back{
+    margin-top: 13vh;
+  }
+
+  .break2about{
+    flex-grow: 8;
+    height: 32vh;
+    align-self: flex-end;
+    outline: none;
+    background-color: none;
+    border: none;
+  }
+
+  .AssignmentAbout{
+    flex-grow: 7;
+
+    height: 32vh;
+    align-self: flex-end;
+    translate: 0 -32vh;
+  }
+
+  .Bio{
+    flex-grow: 1;
+
+    height: 64vh;
+
+
   }
 
   /* Animation Stuff */
