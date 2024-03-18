@@ -20,7 +20,7 @@
 
   <body>
 
-    <div class="FilterSection">     
+    <div class="BlogPost FilterSection Homework Review A1 A2 A3">     
 
         <button class="FilterButton" onclick='filterCategory("Homework", this)'>Homework</button>
         <button class="FilterButton" onclick='filterCategory("Review", this)'>Class Reviews</button>
@@ -34,81 +34,105 @@
     
     <main>
 
-    <section class="Splash">
-       <!-- <div class="slide-in-bck-center"><h1>HI!</h1></div> -->
-       <br>
-       <h2>Hi there, I'm James (s3898709)</h2>
-       
-       <p>design still to be finished, navigate using the tags in the top left</p>
+      <div class="Splash SplashContainer">
 
-    </section>
+        <button class="Hw SplashStyle" onclick='filterCategory("Homework", this)'>
+          Homework
+        </button>
+
+        <button class="About SplashStyle">
+          <h2>Hi there, I'm James (s3898709)</h2>
+        </button>
+
+        <button class="ReviewSplash SplashStyle" onclick='filterCategory("Review", this)'>
+          Class Review
+        </button>
+
+        <div class="break"></div>
+
+        <div class="break2"><p>&nbsp;</p>
+        </div>
+
+        <button class="Assignment SplashStyle" onclick='filterCategory("A1", this)'>
+          A1
+        </button>
+
+        <button class="Assignment SplashStyle" onclick='filterCategory("A2", this)'>
+          A2
+        </button>
+
+        <button class="Assignment SplashStyle" onclick='filterCategory("A3", this)'>
+          A3
+        </button>
+      
+      </div>
 
     
 
-    <!-- Week 1 -->
-    <section class="BlogPost Homework"><a href="hw/one.html">
+      <!-- Week 1 -->
+      <section class="BlogPost BlogPostContainer Homework"><a href="hw/one.html">
 
-      <span class="BlogTitle">I'll Light Up Your World</span>
+        <span class="BlogTitle">I'll Light Up Your World</span>
 
-      <div class="TagSection"> 
-            <button class="TagButton">Week 1.2</button>    
-            <button class="TagButton">Homework</button>
-            <button class="TagButton">March 11</button>
-        </div>
-      
-    </a>
-    </section>
-
-    <!-- Week 1 Review -->
-    <section class="BlogPost Review"><a href="review/one.html">
-
-        <span class="BlogTitle">Back to Square One</span>
-  
         <div class="TagSection"> 
-              <button class="TagButton">Review on Week 1.2</button>    
-              <button class="TagButton">Class Review</button>
-              <button class="TagButton">March 12</button>
-          </div>
-        
-      </a>
-      </section>
-
-    <!-- Week 2 Notes-->
-    <section class="BlogPost A1"><a href="a1/two.html">
-
-        <span class="BlogTitle">What Is Colour?</span>
-  
-        <div class="TagSection"> 
-              <button class="TagButton">Week 2.1 Notes</button>    
-              <button class="TagButton">Assignment 1</button>
-              <button class="TagButton">March 12</button>
-          </div>
-        
-      </a>
-      </section>
-
-    <!-- Week 2 -->
-    <section class="BlogPost Homework A1"><a href="hw/two.html">
-
-        <span class="BlogTitle">Seeing Colour in Black and White</span>
-  
-        <div class="TagSection"> 
-              <button class="TagButton">Week 2.1</button>    
+              <button class="TagButton">Week 1.2</button>    
               <button class="TagButton">Homework</button>
-              <button class="TagButton">Assignment 1</button>
-              <button class="TagButton">March 13</button>
+              <button class="TagButton">March 11</button>
           </div>
         
       </a>
       </section>
 
-      <section class="BlogPost Homework A1 A2 A3 Review" style=" display: none; flex-direction: column; border-radius: 5px; padding: 10px; margin-top: 1em; background-color: #A855F7; gap: 0.ßem; width: 700px;
-      box-shadow: none;"></section>
-      <section class="BlogPost Homework A1 A2 A3 Review" style=" display: none; flex-direction: column; border-radius: 5px; padding: 10px; margin-top: 1em; background-color: #A855F7; gap: 0.ßem; width: 700px;
-      box-shadow: none;"></section>
+      <!-- Week 1 Review -->
+      <section class="BlogPost BlogPostContainer Review"><a href="review/one.html">
 
-</main>
+          <span class="BlogTitle">Back to Square One</span>
+    
+          <div class="TagSection"> 
+                <button class="TagButton">Review on Week 1.2</button>    
+                <button class="TagButton">Class Review</button>
+                <button class="TagButton">March 12</button>
+            </div>
+          
+        </a>
+        </section>
 
-</body>
+      <!-- Week 2 Notes-->
+      <section class="BlogPost BlogPostContainer A1"><a href="a1/two.html">
+
+          <span class="BlogTitle">What Is Colour?</span>
+    
+          <div class="TagSection"> 
+                <button class="TagButton">Week 2.1 Notes</button>    
+                <button class="TagButton">Assignment 1</button>
+                <button class="TagButton">March 12</button>
+            </div>
+          
+        </a>
+        </section>
+
+      <!-- Week 2 -->
+      <section class="BlogPost BlogPostContainer Homework A1"><a href="hw/two.html">
+
+          <span class="BlogTitle">Seeing Colour in Black and White</span>
+    
+          <div class="TagSection"> 
+                <button class="TagButton">Week 2.1</button>    
+                <button class="TagButton">Homework</button>
+                <button class="TagButton">Assignment 1</button>
+                <button class="TagButton">March 13</button>
+            </div>
+          
+        </a>
+        </section>
+
+        <section class="BlogPost BlogPostContainer Homework A1 A2 A3 Review" style=" display: none; flex-direction: column; border-radius: 5px; padding: 10px; margin-top: 1em; background-color: #A855F7; gap: 0.ßem; width: 700px;
+        box-shadow: none;"></section>
+        <section class="BlogPost BlogPostContainer Homework A1 A2 A3 Review" style=" display: none; flex-direction: column; border-radius: 5px; padding: 10px; margin-top: 1em; background-color: #A855F7; gap: 0.ßem; width: 700px;
+        box-shadow: none;"></section>
+
+    </main>
+
+  </body>
 
 </html>
