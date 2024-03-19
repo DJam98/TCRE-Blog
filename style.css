@@ -271,7 +271,7 @@
   .PhotoAbout{
     flex-grow: 1;
     height: 96vh;
-    background-image: url(/img/pfp_left.png);
+    background-image: url(img/pfp_left.png);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
