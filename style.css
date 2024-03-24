@@ -54,6 +54,7 @@
   .hi {
     font-weight: 900;
     overflow: hidden;
+    padding-top: 33%;
   }
 
   button{
@@ -218,21 +219,36 @@
   .Hw{
     flex-grow: 1;
     height: 96vh;
+    background-image: url(/img/hw.png);
+    background-position: middle;
   }
 
   .About{
     flex-grow: 2.5;
     height: 64vh;
+    background-image: url(/img/about.png);
   }
 
   .ReviewSplash{
     flex-grow: 1;
-
     height: 64vh;
+    background-image: url(/img/class.png);
+  }
+
+  .one{
+    background-image: url(/img/one.png);
+  }
+
+  .two {
+    background-image: url(/img/two.png);
+  }
+
+  .three{
+    background-image: url(/img/three.png);
   }
 
   .Assignment{
-    flex-grow: 7;
+    flex-grow: 10;
 
     height: 32vh;
     align-self: flex-end;
@@ -244,7 +260,7 @@
   }
 
   .break2{
-    flex-grow: 6;
+    flex-grow: 10;
     height: 32vh;
     align-self: flex-end;
     outline: none;
@@ -281,7 +297,7 @@
   }
 
   .break2about{
-    flex-grow: 8;
+    flex-grow: 5;
     height: 32vh;
     align-self: flex-end;
     outline: none;
@@ -301,8 +317,6 @@
     flex-grow: 1;
 
     height: 64vh;
-
-
   }
 
   /* Animation Stuff */
