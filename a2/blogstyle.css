@@ -1,0 +1,142 @@
+
+*{
+    box-sizing: border-box;
+    background-origin: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 20px;
+  }
+  
+  :root{
+    --teal-50: #FAF5FF;
+    --teal-100: #F3E8FF;
+    --teal-200: #E9D5FF;
+    --teal-300: #D8B4FE;
+    --teal-400: #C084FC;
+    --teal-500: #A855F7;
+    --teal-600: #9333EA;
+    --teal-700: #7E22CE;
+    --teal-800: #6B21A8;
+    --teal-900: #581C87;
+    --teal-950: #3B0764;
+    
+    --border: 1px solid #b6e878;
+  }
+
+  body{
+    background-color: var(--teal-50);
+    color: var(--teal-950);
+    text-align: justify;
+    padding-top: 2rem;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  header{
+    width: 100vw;
+  }
+
+  .headerColour{
+    background-color: var(--teal-100);
+    height: 2rem;
+    width: 100vw;
+    position: absolute;
+    transform: translateY(-2.5rem);
+    z-index: 5;
+  }
+
+  h1{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--teal-800);
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    z-index: 10;
+  }
+
+  h2{
+    text-align: center;
+    color: var(--teal-950);
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    z-index: 7;
+  }
+
+  h4{
+    font-weight: 500;
+    color: var(--teal-950);
+  }
+
+ul{
+    display: list-item;
+    margin-left: 1rem;
+}
+
+  main{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+  .NavButton{ 
+    background-color: var(--teal-200);
+    color: var(--teal-800);
+    height: 2em;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.75rem;
+    flex-grow: 1;
+  }
+  
+  .NavButton:hover{
+  
+    background-color: var(--teal-300);
+    color: var(--teal-900);
+  }
+
+  .hitbox{
+    width: 100%;
+    height: 100%;
+    color: var(--teal-800);
+    font-size: 0.75rem;
+    padding-top: 0.15rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: var(--teal-800)
+  }
+
+  a:visited a:active a:hover{
+    color: var(--teal-800);
+    font-size: 0.75rem;
+  }
+
+  img{
+    width: 50%;
+    margin-left: 25%;
+    padding: 0.5rem;
+  }
